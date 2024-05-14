@@ -7,14 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div style='text-align: justify;'> 
+<p style='text-align: justify;'> 
 I am currently working as a lecturer in the Department of Computer Science and Engineering at BUBT. I have a passion for teaching and guiding students in the field of computer science. My areas of expertise include programming, data structures, algorithms, and deep learning.
-
-I hold a B.Sc. degree in Computer Science and Engineering from CUET, where I had the privilege of being supervised by [Dr. Kaushik Deb](https://www.cuet.ac.bd/members/498). During my academic career, I actively participated in ICPC, NCPC, and various national-level programming contests.
-
+</p>
+<p style='text-align: justify;'> 
+I hold a B.Sc. degree in Computer Science and Engineering from CUET, where I had the privilege of being supervised by <a href="https://www.cuet.ac.bd/members/498">Dr. Kaushik Deb</a>. During my academic career, I actively participated in ICPC, NCPC, and various national-level programming contests.
+</p>
+<p style='text-align: justify;'> 
 Apart from my professional life, I enjoy playing sports like badminton, football, and cricket. I also have a keen interest in reading motivational and history books, particularly on topics like religion and world wars. In my free time, I like to engage in games like carrom, chess, and cards.
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-</div>
+</p>
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
