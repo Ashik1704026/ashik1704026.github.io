@@ -1,21 +1,265 @@
-<blockquote>
-  <p>Lecturer · MSc (CSE) · AI &amp; QML in Healthcare</p>
-</blockquote>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Md. Ashiqur Rahman — Portfolio</title>
+  <meta name="description" content="Portfolio of Md. Ashiqur Rahman — MSc in CSE (University of Dhaka), incoming PhD (Kennesaw State University). Research: ML, QML, medical AI (meningitis)." />
+  <meta name="theme-color" content="#0f172a" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Md. Ashiqur Rahman — Portfolio" />
+  <meta property="og:description" content="Research: ML, QML, medical AI (meningitis)." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ashik1704026.github.io" />
+  <style>
+    /* --- CSS: clean academic look, no external deps --- */
+    :root{
+      --bg:#0b1020; /* slate-950 */
+      --panel:#0f172a; /* slate-900 */
+      --ink:#e5e7eb; /* gray-200 */
+      --muted:#94a3b8; /* slate-400 */
+      --accent:#22d3ee; /* cyan-400 */
+      --link:#7dd3fc; /* sky-300 */
+      --chip:#1e293b; /* slate-800 */
+      --card:#111827; /* gray-900 */
+      --ring:#22d3ee33;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f8fafc; --panel:#ffffff; --ink:#0b1020; --muted:#475569; --accent:#0ea5e9; --link:#0284c7; --chip:#e2e8f0; --card:#ffffff; --ring:#0ea5e926;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    img{max-width:100%;height:auto;border-radius:12px}
+    .wrap{max-width:1100px;margin-inline:auto;padding:24px}
+    header{display:flex;gap:24px;align-items:center;justify-content:space-between;position:sticky;top:0;background:linear-gradient(180deg,var(--bg),color-mix(in oklab,var(--bg),transparent 20%));backdrop-filter:blur(8px);z-index:20;border-bottom:1px solid color-mix(in oklab,var(--ink),transparent 90%)}
+    .brand{display:flex;gap:14px;align-items:center}
+    .avatar{width:64px;height:64px;border-radius:50%;border:2px solid var(--accent);box-shadow:0 0 0 4px var(--ring);background:linear-gradient(135deg,var(--accent),transparent)}
+    .title h1{margin:0;font-size:22px}
+    .title small{display:block;color:var(--muted)}
+    nav{display:flex;gap:14px;flex-wrap:wrap}
+    nav a{padding:8px 12px;border-radius:999px;background:var(--chip);border:1px solid color-mix(in oklab,var(--ink),transparent 80%)}
+    nav a.active{outline:2px solid var(--accent)}
+    main{display:grid;grid-template-columns:320px 1fr;gap:24px;margin-top:24px}
+    @media (max-width:960px){ main{grid-template-columns:1fr} }
+    .side{position:sticky;top:88px;align-self:start}
+    .card{background:var(--panel);border:1px solid color-mix(in oklab,var(--ink),transparent 88%);border-radius:16px;padding:18px;box-shadow:0 10px 20px -12px rgba(0,0,0,.35)}
+    h2{margin-top:0;font-size:20px}
+    .chip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:var(--chip);border:1px solid color-mix(in oklab,var(--ink),transparent 80%);margin:4px 6px 0 0}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .col-12{grid-column:span 12}
+    .col-6{grid-column:span 6}
+    .col-4{grid-column:span 4}
+    @media (max-width:960px){ .col-6,.col-4{grid-column:span 12} }
+    .project,.pub{background:var(--card);padding:16px;border-radius:14px;border:1px solid color-mix(in oklab,var(--ink),transparent 88%)}
+    .project h3,.pub h3{margin:0 0 6px 0;font-size:18px}
+    .project footer,.pub footer{color:var(--muted);font-size:14px;margin-top:6px}
+    .kicker{color:var(--accent);letter-spacing:.06em;text-transform:uppercase;font-size:13px}
+    .hero{display:flex;gap:20px;align-items:center}
+    .hero .info p{margin:6px 0 0 0;color:var(--muted)}
+    .btn{display:inline-block;padding:10px 14px;border-radius:12px;background:var(--accent);color:#001018;font-weight:600;border:0}
+    .btn:hover{text-decoration:none;filter:saturate(1.1)}
+    .list-clean{list-style:none;padding:0;margin:0}
+    .list-clean li{margin:6px 0}
+    footer.site{margin:36px 0;color:var(--muted);font-size:14px;text-align:center}
+    /* print-friendly CV */
+    @media print{
+      header, nav, .btn, .avatar{display:none}
+      .card, .project, .pub{box-shadow:none;border-color:#ddd}
+      a{color:#000;text-decoration:underline}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Md. Ashiqur Rahman",
+    "jobTitle":"Researcher (ML/QML, Medical AI)",
+    "affiliation":{"@type":"CollegeOrUniversity","name":"University of Dhaka"},
+    "alumniOf":[{"@type":"CollegeOrUniversity","name":"University of Dhaka"}],
+    "sameAs":["https://github.com/Ashik1704026"],
+    "url":"https://ashik1704026.github.io"
+  }
+  </script>
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand">
+      <div class="avatar" aria-hidden="true"></div>
+      <div class="title">
+        <h1>Md. Ashiqur Rahman</h1>
+        <small>MSc in CSE, University of Dhaka · Incoming PhD (KSU, 2026)</small>
+      </div>
+    </div>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<p>I am an MSc candidate in CSE with research interests in <strong>machine learning</strong> and <strong>quantum machine learning (QML)</strong> for
-<strong>meningitis detection/classification</strong> and <strong>medical imaging</strong>. I build end-to-end pipelines in Python (Colab/Kaggle)
-using scikit-learn, PyTorch, and Qiskit, and compare classical models (SVM, XGBoost, CatBoost, AdaBoost, LR) with QML
-methods (QSVM, QNN, VQC).</p>
+  <div class="wrap">
+    <main>
+      <!-- LEFT COLUMN / PROFILE -->
+      <aside class="side">
+        <section class="card">
+          <div class="hero">
+            <div class="info">
+              <div class="kicker">About</div>
+              <p>I'm an MSc candidate in Computer Science & Engineering at the University of Dhaka. My research focuses on machine learning and quantum machine learning (QML) for healthcare, especially meningitis detection/classification and medical imaging.</p>
+              <p>From Jan 2026, I will begin a funded PhD in Computer Science at Kennesaw State University (CCSE).</p>
+              <p><a class="btn" href="#contact">Get in touch</a></p>
+            </div>
+          </div>
+        </section>
 
-<ul>
-  <li><strong>Current role:</strong> Lecturer, Dept. of CSE, Bangladesh University of Business and Technology (BUBT)</li>
-  <li><strong>MSc:</strong> CSE (research focus: ML &amp; QML for healthcare)</li>
-  <li><strong>Interests:</strong> Medical imaging (nuclei segmentation/classification), interpretable ML, QML benchmarking</li>
-</ul>
+        <section class="card" aria-labelledby="skills-h">
+          <h2 id="skills-h">Skills & Interests</h2>
+          <div>
+            <span class="chip" title="Python">Python</span>
+            <span class="chip">Scikit‑learn</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">Qiskit</span>
+            <span class="chip">PennyLane</span>
+            <span class="chip">Medical Imaging</span>
+            <span class="chip">Classification</span>
+            <span class="chip">Segmentation</span>
+            <span class="chip">AUC/ROC · Explainability</span>
+          </div>
+        </section>
 
-<h3 id="contact">Contact</h3>
-<ul>
-  <li><strong>Email:</strong> <a href="mailto:ashiqurr343@gmail.com">ashiqurr343@gmail.com</a></li>
-  <li><strong>GitHub:</strong> <a href="https://github.com/Ashik1704026">https://github.com/Ashik1704026</a></li>
-  <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=FyQ9FAUAAAAJ">https://scholar.google.com/citations?user=FyQ9FAUAAAAJ</a></li>
-</ul>
+        <section class="card" aria-labelledby="links-h">
+          <h2 id="links-h">Links</h2>
+          <ul class="list-clean">
+            <li>GitHub: <a href="https://github.com/Ashik1704026">@Ashik1704026</a></li>
+            <li>Google Scholar: <a href="#">Add link</a></li>
+            <li>LinkedIn: <a href="#">Add link</a></li>
+            <li>CV (PDF): <a href="#cv">see below</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- RIGHT COLUMN / CONTENT -->
+      <section class="content">
+        <section id="about" class="card" aria-labelledby="about-h">
+          <h2 id="about-h">About</h2>
+          <p>I design and evaluate ML/QML models for tabular and imaging data in healthcare. Recent work includes comparing classical ML baselines (Logistic Regression, SVM, AdaBoost, CatBoost, XGBoost) against QML methods (QSVM, Variational Quantum Classifier, QNNs) on acute bacterial meningitis (ABM) datasets and microscopy images.</p>
+          <p>I enjoy reproducible research, clean code, and clear visualizations. I regularly use Colab/Kaggle/Jupyter with <code>scikit‑learn</code>, <code>pandas</code>, <code>qiskit</code>, and <code>pennylane</code>.</p>
+        </section>
+
+        <section id="research" class="card" aria-labelledby="research-h">
+          <h2 id="research-h">Research Highlights</h2>
+          <div class="grid">
+            <article class="project col-6">
+              <div class="kicker">Quantum ML</div>
+              <h3>QSVM vs. Classical SVM for ABM</h3>
+              <p>Rigorous evaluation of QSVM against kernel SVM on ABM tabular features; includes ROC‑AUC, calibration, and complexity analysis.</p>
+              <footer>Code: <a href="#">repo</a> · Preprint: <a href="#">soon</a></footer>
+            </article>
+            <article class="project col-6">
+              <div class="kicker">Variational Circuits</div>
+              <h3>VQC/QNN pipeline (Qiskit ≥ 1.2)</h3>
+              <p>End‑to‑end VQC with modern Qiskit primitives (Sampler/Estimator), hyper‑parameter sweeps, and baselines (XGBoost, CatBoost).</p>
+              <footer>Notebook: <a href="#">Colab</a> · Results: <a href="#">CSV</a></footer>
+            </article>
+            <article class="project col-6">
+              <div class="kicker">Medical Imaging</div>
+              <h3>Attention U‑Net for Nuclei</h3>
+              <p>Improved boundary segmentation (+6% Dice vs baseline) with lightweight attention gates and post‑hoc interpretability.</p>
+              <footer>Paper: <a href="#">in prep</a> · Demos: <a href="#">video</a></footer>
+            </article>
+            <article class="project col-6">
+              <div class="kicker">Explainability</div>
+              <h3>Trustworthy Models</h3>
+              <p>Class activation maps / SHAP analyses for clinical interpretability and error inspection.</p>
+              <footer>Slides: <a href="#">PDF</a></footer>
+            </article>
+          </div>
+        </section>
+
+        <section id="publications" class="card" aria-labelledby="pubs-h">
+          <h2 id="pubs-h">Publications & Manuscripts</h2>
+          <article class="pub">
+            <h3>Comparative ML vs QML for Meningitis Detection</h3>
+            <p>Under review / in preparation. Benchmarks of LR, SVM, AdaBoost, CatBoost, XGBoost vs QSVM, VQC, QNN on ABM datasets with complexity proofs.</p>
+            <footer>Manuscript: <a href="#">PDF</a> · Slides: <a href="#">Key results</a></footer>
+          </article>
+          <article class="pub" style="margin-top:12px">
+            <h3>Attention‑based U‑Net for Nuclei Boundary Segmentation</h3>
+            <p>Thesis chapter and manuscript. +6% Dice over UNet baseline; qualitative improvements along boundaries.</p>
+            <footer>Preprint: <a href="#">arXiv</a> · Code: <a href="#">GitHub</a></footer>
+          </article>
+        </section>
+
+        <section id="projects" class="card" aria-labelledby="projects-h">
+          <h2 id="projects-h">Selected Projects</h2>
+          <ul class="list-clean">
+            <li><strong>geo2csv</strong> — robust GEO soft → CSV converter (expression, metadata, platform). <a href="#">Code</a></li>
+            <li><strong>ABM‑Tab</strong> — curated ABM classification dataset (cleaning, encoding, splits, metrics). <a href="#">Dataset</a></li>
+            <li><strong>Qiskit‑Modern</strong> — VQC/QNN templates compatible with ≥ 1.2. <a href="#">Templates</a></li>
+          </ul>
+        </section>
+
+        <section id="cv" class="card" aria-labelledby="cv-h">
+          <h2 id="cv-h">Short CV</h2>
+          <p><strong>Education</strong><br/>
+            MSc in CSE, University of Dhaka — ongoing<br/>
+            PhD in CS (Funded), Kennesaw State University — start Jan 2026
+          </p>
+          <p><strong>Research Areas</strong><br/>
+            Quantum Machine Learning · Medical AI · Nuclei Segmentation · Explainability
+          </p>
+          <p><strong>Tooling</strong><br/>
+            Python, scikit‑learn, PyTorch, Qiskit, PennyLane, Pandas, NumPy, OpenCV
+          </p>
+          <p><a class="btn" href="#">Download full CV (PDF)</a></p>
+        </section>
+
+        <section id="contact" class="card" aria-labelledby="contact-h">
+          <h2 id="contact-h">Contact</h2>
+          <p>Email: <a id="email" href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <p>Dhaka, Bangladesh</p>
+          <p>Also on: <a href="https://github.com/Ashik1704026">GitHub</a> · <a href="#">LinkedIn</a> · <a href="#">Scholar</a></p>
+          <form onsubmit="event.preventDefault();window.location.href='mailto:'+document.getElementById('email').textContent+'?subject=Hello%20from%20your%20website';" aria-label="Quick email form">
+            <label>
+              <span>Name</span><br/>
+              <input required style="width:100%;padding:10px;border-radius:10px;border:1px solid color-mix(in oklab,var(--ink),transparent 85%);background:var(--card);color:var(--ink)" />
+            </label>
+            <br/><br/>
+            <label>
+              <span>Message</span><br/>
+              <textarea required rows="4" style="width:100%;padding:10px;border-radius:10px;border:1px solid color-mix(in oklab,var(--ink),transparent 85%);background:var(--card);color:var(--ink)"></textarea>
+            </label>
+            <br/><br/>
+            <button class="btn" type="submit">Email me</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site">© <span id="y"></span> Md. Ashiqur Rahman · Built for GitHub Pages</footer>
+  </div>
+
+  <script>
+    // highlight active nav link
+    const links=[...document.querySelectorAll('nav a')];
+    const obs=new IntersectionObserver(entries=>{
+      entries.forEach(e=>{
+        const id='#'+e.target.id.replace('-h','');
+        const a=links.find(l=>l.getAttribute('href')===id);
+        if(a){ e.isIntersecting ? a.classList.add('active') : a.classList.remove('active'); }
+      });
+    },{rootMargin:'-40% 0px -55% 0px',threshold:[0,1]});
+    document.querySelectorAll('section.card h2').forEach(h=>obs.observe(h));
+    // year
+    document.getElementById('y').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
+
