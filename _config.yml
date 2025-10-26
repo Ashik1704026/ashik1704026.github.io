@@ -1,0 +1,59 @@
+title: "Md. Ashiqur Rahman"
+subtitle: "Lecturer · MSc (CSE) · AI & QML in Healthcare"
+description: >-
+  Academic website and e-portfolio of Md. Ashiqur Rahman. Research interests: machine learning, quantum
+  machine learning, medical imaging, and AI for healthcare.
+
+url: "https://ashik1704026.github.io"
+baseurl: ""
+
+remote_theme: alshedivat/al-folio
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: papers.bib
+  bibliography_template: bibliography
+  sort_by: year
+  order: descending
+
+name: "Md. Ashiqur Rahman"
+email: "ashiqurr343@gmail.com"
+location: "Dhaka, Bangladesh"
+
+github_username: Ashik1704026
+scholar_userid: FyQ9FAUAAAAJ
+linkedin_username: ""
+orcid_id: ""
+
+navbar:
+  logo:
+    text: "Md. Ashiqur Rahman"
+  links:
+    - title: "About"
+      url: "/"
+    - title: "Publications"
+      url: "/publications/"
+    - title: "Projects"
+      url: "/projects/"
+    - title: "CV"
+      url: "/cv/"
+    - title: "Contact"
+      url: "/#contact"
+
+footer_text: "© Copyright 2025 Md. Ashiqur Rahman. Powered by Jekyll with al-folio theme. Last updated: Oct 26, 2025."
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
